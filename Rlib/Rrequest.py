@@ -1,10 +1,10 @@
 import requests
 from bs4 import BeautifulSoup as bs
 import json
-import Rerrorjson
+from Rerrorjson import errorjson
 
 class Rcrawling:
-    def __init__(self, url:str, errorJson:str|None):
+    def __init__(self, url:str, errorJson:str=None):
         """
         Rcrawling은 request, bs4를 사용하는 코드다.
 
@@ -30,8 +30,7 @@ class Rcrawling:
                 'error': e
             }
 
-            error = Rerrorjson()
-            error.errorjson(errorcode = exceptiondata)
+            errorjson(exceptiondata)
 
         return html
             
