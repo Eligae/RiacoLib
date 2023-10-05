@@ -4,7 +4,7 @@ import json
 from Rerrorjson import errorjson
 
 class Rcrawling:
-    def __init__(self, url:str, errorJson:str=None):
+    def __init__(self, url:str):
         """
         Rcrawling은 request, bs4를 사용하는 코드다.
 
@@ -13,8 +13,7 @@ class Rcrawling:
         """
         self.url = url
         self.header = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'}
-        self.errorJson = errorJson
-
+        
     def crawling(self, type:str)->str:
         """
         url을 encoding 형식에 따라서 html 구조를 받아옴

@@ -1,4 +1,8 @@
 from itertools import combinations, permutations
+__doc__="""
+more short words to use in math
+"""
+
 
 def factorial(n:int)->int:
     """
