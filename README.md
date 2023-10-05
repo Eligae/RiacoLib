@@ -20,3 +20,10 @@ for personal use(easier programming)
 
     >> 120
     ```
+## files
+|File|Actions|
+|---|---|
+|Rmath|for math, especially numeric|
+|Rrequest|uses `request`. provide easier setting(headers are automatically setted)<br>Every action is trial and Error consequences, so it uses `Rerrorjson`|
+|Rselenium|uses `selenium.webdriver`. same functions like `Rrequest`.|
+|Rerrorjson|makes `Rerror.json` to keep track of all errors by doing large things.|
