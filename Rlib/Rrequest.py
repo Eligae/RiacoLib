@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup as bs
 import json
-from Rerrorjson import errorjson
+from Rerrorjson import append_error
 
 class Rcrawling:
     def __init__(self, url:str):
@@ -29,7 +29,7 @@ class Rcrawling:
                 'error': e
             }
 
-            errorjson(exceptiondata)
+            append_error(exceptiondata)
 
         return html
             
