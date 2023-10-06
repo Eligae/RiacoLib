@@ -26,4 +26,4 @@ for personal use(easier programming)
 |Rmath|for math, especially numeric|
 |Rrequest|uses `request`. provide easier setting(headers are automatically setted)<br>Every action is trial and Error consequences, so it uses `Rerrorjson`|
 |Rselenium|uses `selenium.webdriver`. same functions like `Rrequest`.|
-|Rerrorjson|makes `Rerror.json` to keep track of all errors by doing large things.|
+|Rerrorjson|makes `Rerror.json` to keep track of all errors by doing large things.<br>using `hanle_error`, there is no longer to use `try` & `except`|
